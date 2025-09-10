@@ -2,6 +2,7 @@ export interface PromptTemplate {
   name: string;
   description: string;
   template: string; // Using a simple string for now. Could be a function later.
+  isCustom?: boolean; // To identify user-created templates
 }
 
 export interface Mode {

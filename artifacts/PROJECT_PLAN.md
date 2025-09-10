@@ -58,11 +58,13 @@
     *   [x] יצירת קבצי Smoke tests (ללא הרצה).
 
 5.  **שלב 5: פיתוח מתקדם וחיבור מלא**
-    *   [ ] חיבור מלא של `ChatPanel` ל-API החדש של `generate/edit`.
-    *   [ ] מימוש מלא של פעולות ב-`ArtifactsPanel` (Refine, Duplicate, Compare, Revert) מול ה-API.
-    *   [ ] פיתוח `ModeEditor` לניהול תבניות פרומפטים.
-    *   [ ] פיתוח `HistoryTimeline` להצגת גרסאות.
-    *   [ ] שיפור חווית משתמש וטיפול מתקדם בשגיאות.
+    *   [x] חיבור מלא של `ChatPanel` ל-API החדש של `generate/edit`.
+    *   [x] מימוש מלא של פעולות ב-`ArtifactsPanel` (Refine, Duplicate, Compare, Revert) מול ה-API.
+    *   [x] פיתוח `ModeEditor` לניהול תבניות פרומפטים, כולל יצירת תבניות מותאמות אישית.
+    *   [x] פיתוח `HistoryTimeline` להצגת גרסאות.
+    *   [x] שיפור חווית משתמש וטיפול מתקדם בשגיאות.
+        *   [x] התאמת ממשק משתמש ל-RTL ותרגום לעברית.
+        *   [x] הוספת אנימציות ושיפור משוב ויזואלי.
 
 ## 4. תוכנית בדיקות (Test Plan)
 

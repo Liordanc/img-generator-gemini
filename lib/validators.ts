@@ -19,10 +19,12 @@ export const editImageSchema = z.object({
 export const createArtifactSchema = z.object({
     type: z.enum(["image", "text"]),
     url: z.string().url(),
-    metadata: z.record(z.any()).optional(),
+    // FIX: The `z.record` method expects the key type and value type. Changed to be explicit.
+    metadata: z.record(z.string(), z.any()).optional(),
 });
 
 // Schema for updating an artifact (e.g., adding metadata)
 export const updateArtifactSchema = z.object({
-    metadata: z.record(z.any()).optional(),
+    // FIX: The `z.record` method expects the key type and value type. Changed to be explicit.
+    metadata: z.record(z.string(), z.any()).optional(),
 });

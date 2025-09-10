@@ -1,5 +1,5 @@
 {
-  "current_step": "api",
+  "current_step": "ui-polish-animations",
   "completed_tasks": [
     "יצירת תוכנית פרויקט ראשונית (PROJECT_PLAN.md)",
     "יצירת קובץ סטטוס ראשוני (STATUS.json)",
@@ -8,16 +8,23 @@
     "הגדרת סכמת DB עם Prisma",
     "יצירת שירותי DB, Storage ו-Orchestration",
     "בניית API Routes חדשים ל-images ו-artifacts",
-    "יצירת שלד לקומפוננטות UI מתקדמות (ChatPanel, ArtifactsPanel)"
+    "יצירת שלד לקומפוננטות UI מתקדמות (ChatPanel, ArtifactsPanel)",
+    "התאמת ממשק משתמש מלאה ל-RTL (Right-to-Left) ותרגום לעברית.",
+    "מימוש מלא של פעולות ב-ArtifactsPanel (שכפל, השווה, שחזר) וחיבור ל-API.",
+    "פיתוח ModeEditor לניהול תבניות פרומפטים וחיבורו ל-ChatPanel.",
+    "פיתוח רכיב HistoryTimeline להצגת עץ גרסאות.",
+    "הוספת יכולת ליצירת תבניות פרומפטים מותאמות אישית ב-ModeEditor.",
+    "שיפור חווית משתמש, הוספת אנימציות וטיפול מתקדם בשגיאות."
   ],
-  "next_task": "חיבור מלא בין ChatPanel↔APIs, ModeEditor, HistoryTimeline, והקשחת ולידציות ו-UX actions (Refine/Duplicate/Compare/Revert)",
+  "next_task": "מימוש פעולת 'שפר' (Refine) וחיבורה לממשק המשתמש.",
   "issues": [
     "DB connection is mocked with an in-memory fallback; requires real DB setup for production.",
-    "File storage operations are simulated and need to be implemented on a live server environment."
+    "File storage operations are simulated and need to be implemented on a live server environment.",
+    "Custom prompt templates are stored in-memory and are not persisted across sessions."
   ],
   "last_checks": {
-    "smoke": "pass (placeholder files created)",
+    "smoke": "pass",
     "dry_run_image": "n/a"
   },
-  "last_update": "2024-08-01T10:20:00Z"
+  "last_update": "2024-08-01T15:00:00Z"
 }
