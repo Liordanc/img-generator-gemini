@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Image ChatBot",
+  "description": "A Next.js chatbot to create and edit images with Gemini",
+  "requestFramePermissions": []
+}
